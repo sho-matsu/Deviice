@@ -24,7 +24,6 @@ public enum Model: String, Codable {
             
     // MARK: iPhone
     case iPhone
-    case iPhone2G
     case iPhone3G
     case iPhone3Gs
     case iPhone4
@@ -75,7 +74,8 @@ public enum Model: String, Codable {
     case iPhone17Pro
     case iPhone17ProMax
     case iPhoneAir1
-            
+    case iPhone17e
+
     // MARK: iPad
     
     // iPad
@@ -109,7 +109,9 @@ public enum Model: String, Codable {
     case iPadAir13Inch6
     case iPadAir11Inch7
     case iPadAir13Inch7
-    
+    case iPadAir11Inch8
+    case iPadAir13Inch8
+
     // iPad Pro
     case iPadPro129Inch1
     case iPadPro97Inch1
